@@ -16,7 +16,7 @@ async def randomquote(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     datadict =(data[random.randint(0,(len(data)-1))])
     quote = datadict["quote"]
     author = datadict["author"]
-    text = f"{quote}\nAuthor: {author}"
+    text = f"{quote}\n\nAuthor: {author}"
     await update.message.reply_text(text)
 
 async def sryText(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
