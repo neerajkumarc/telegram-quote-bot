@@ -1,2 +1,46 @@
-# telegram-quote-bot
-Telegram bot
+# QuantumQuotations Telegram Bot
+
+![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-blue)
+
+QuantumQuotations is a Telegram bot that provides you with random inspirational quotes.
+
+## Features
+
+- Get a random quote by using the `/random` command.
+- List all available commands with the `/help` command.
+- Start a conversation with the bot using the `/start` command.
+
+## Usage
+
+ Use the following commands to interact with the bot:
+
+   - `/random`: Get a random quote.
+   - `/help`: List all available commands.
+   - `/start`: Start a conversation with the bot.
+
+## Installation
+
+1. Clone this repository to your local machine.
+2. Install the required packages using:
+
+   ```bash
+    pip install -r requirements.txt
+   ```
+3. Create a `.env` file in the project directory and add your Telegram bot token:
+
+   ```bash
+    TOKEN=your_bot_token_here
+   ```
+
+4. Run the bot using:
+   ```bash
+    python bot.py
+   ```
+
+## Dependencies
+
+- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot): The Python wrapper for the Telegram Bot API.
+- [dotenv](https://github.com/theskumar/python-dotenv): Loads environment variables from a `.env` file.
+
+
+
