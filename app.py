@@ -33,6 +33,5 @@ app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), sryText))
 app.add_handler(CommandHandler("random", randomquote))
 app.add_handler(CommandHandler("help", help))
-app.add_handler(CommandHandler("start", start))
 
 app.run_polling()

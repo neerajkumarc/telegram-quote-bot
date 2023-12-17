@@ -1,14 +1,13 @@
-# QuantumQuotations Telegram Bot
+# Telegram Bot
 
 ![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-blue)
 
-QuantumQuotations is a Telegram bot that provides you with random inspirational quotes.
+A Telegram bot that provides you with random inspirational quotes.
 
 ## Features
 
 - Get a random quote by using the `/random` command.
 - List all available commands with the `/help` command.
-- Start a conversation with the bot using the `/start` command.
 
 ## Usage
 
@@ -16,7 +15,6 @@ QuantumQuotations is a Telegram bot that provides you with random inspirational 
 
    - `/random`: Get a random quote.
    - `/help`: List all available commands.
-   - `/start`: Start a conversation with the bot.
 
 ## Installation
 
