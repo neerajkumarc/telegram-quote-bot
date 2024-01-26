@@ -4,11 +4,6 @@
 
 A Telegram bot that provides you with random inspirational quotes.
 
-## Features
-
-- Get a random quote by using the `/random` command.
-- List all available commands with the `/help` command.
-
 ## Usage
 
  Use the following commands to interact with the bot:
